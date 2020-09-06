@@ -1,7 +1,7 @@
 body{
     overflow: hidden;
 	background: #7F7FD5;  /* fallback for old browsers */ 
-	width: 100%;
+	/* width: 100%; */
 }
 
 
@@ -296,7 +296,7 @@ input {
 				position: relative;
 				display: flex;
 				flex-direction: column;
-				padding: 8px;
+				padding: 10px;
 				top: 0;
 				right: 0;
 			}
@@ -311,8 +311,8 @@ input {
 			}
 
 			.btn>button{
-				padding: 20px;
-				font-size:18px;
+				padding: 24px;
+				font-size:20px;
 			}
 			.tudo{width: 400px;}
 			.gameover{width: 400px;}
