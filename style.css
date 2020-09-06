@@ -2,6 +2,7 @@ body{
     overflow: hidden;
 	background: #7F7FD5;  /* fallback for old browsers */ 
 	width: 100%;
+	margin: 0px;
 }
 
 
