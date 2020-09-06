@@ -9,7 +9,7 @@ body{
 *{  
     box-sizing: border-box;
 	font-family: Arial;
-	touch-action: none;
+	touch-action: manipulation;
 }
 
 .main{
