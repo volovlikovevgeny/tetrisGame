@@ -227,7 +227,7 @@ input {
 		text-decoration: none;
 		text-shadow: 2.5px 2.5px #000000;
 		padding: 25px 110px 25px 110px;
-    border: 1px solid #000000;
+        border: 1px solid #000000;
 		border-radius: 20px;
 		background: #000;
 		margin-right: 30px;
@@ -235,33 +235,6 @@ input {
 
 
 
-@-webkit-keyframes animacao2 { from {-webkit-transform: scale(1);} 
-								to {-webkit-transform: scale(1.2);} }
-
-@-moz-keyframes animacao2 { from {-moz-transform: scale(1);} 
-								to {-moz-transform: scale(1.1);} }
-
-@keyframes animacao2 { from {transform: scale(1);} 
-								to {transform: scale(1.1);} }
-
-
-.yes a:hover {-webkit-animation-name: animacao2;
-		-webkit-animation-duration: 0.8s;
-		-webkit-animation-timing-function:  linear;
-		-webkit-animation-iteration-count: infinite;
-		-webkit-animation-direction: alternate;
-
-		-moz-animation-name: animacao2;
-		-moz-animation-duration: 0.8s;
-		-moz-animation-timing-function:  linear;
-		-moz-animation-iteration-count: infinite;
-		-moz-animation-direction: alternate;
-
-		animation-name: animacao2;
-		animation-duration: 0.8s;
-		animation-timing-function:  linear;
-		animation-iteration-count: infinite;
-		animation-direction: alternate;}
 
 
 
@@ -343,8 +316,6 @@ input {
 				padding: 24px;
 				font-size:20px;
 			}
-
-			
 			.tudo{width: 400px;}
 			.gameover{width: 400px;}
 			.continue{width: 400px;}
@@ -359,5 +330,12 @@ input {
 				display: flex;
 				width: 45%;
 			}
-			
+		
+		}
+
+
+		@media(max-width:900px){
+		#tudo{
+			left: 0%;
+		}
 		}
