@@ -307,10 +307,9 @@ input {
 			}
 
 			.main{
-				/* width: 464px;
-				height: 654px; */
-				width: 417px;
-				height: 702px;
+				width: 464px;
+				height: 654px;
+			
 			}
 
 			.btn>button{
