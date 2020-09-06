@@ -1,3 +1,7 @@
+let body = document.getElementsByTagName('body')[0];
+body.addEventListener('dblclick', function (e) {
+    e.preventDefault();
+})
 
 let overlay = document.querySelector('.overlay');
 let modal = document.querySelector('.modal');
