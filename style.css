@@ -163,7 +163,7 @@ input {
 							   100% {background: #FB3733;} }
 
 
-#tudo {width: 750px;
+#tudo {width: 550px;
 		height: 580px;
 		margin: auto;
 		margin-top: 20px;
@@ -187,7 +187,7 @@ input {
 		animation-direction: alternate;}
 
 
-.gameover {width:750px;
+.gameover {width:550px;
 			height: auto;
 			padding-top: 60px;
 			background: none;}
@@ -201,7 +201,7 @@ input {
 			text-shadow: 5px 5px #000000;
 			color: #ffffff;}
 
-.continue	{width: 750px;
+.continue	{width: 550px;
 			height: auto;
 			padding-top: 40px;}
 
@@ -275,7 +275,7 @@ input {
 	padding: 25px 100px 25px 100px;
 	border-radius: 20px;
 	background: #000000;
-	float: left;}
+	}
 
 
 @-webkit-keyframes animacao3 { 0% {-webkit-transform: translate(-5px,0px);} 
@@ -342,6 +342,22 @@ input {
 			.btn>button{
 				padding: 24px;
 				font-size:20px;
+			}
+
+			
+			.tudo{width: 400px;}
+			.gameover{width: 400px;}
+			.continue{width: 400px;}
+			.no a,.yes a{
+				font-size: 20px;
+				margin-right: 15px;
+				padding: 20px 76px 20px 78px;
+				text-align: center;
+				
+				display: flex;
+				flex-direction: row;
+				display: flex;
+				width: 45%;
 			}
 			
 		}
