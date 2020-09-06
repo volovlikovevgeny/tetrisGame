@@ -1,3 +1,5 @@
+
+
 let overlay = document.querySelector('.overlay');
 let modal = document.querySelector('.modal');
 let speed = 0;
