@@ -107,7 +107,9 @@ input {
 
 .btn{
     text-align: center;  
-    margin: 5px;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
 }
 
 .btn>button{
@@ -338,4 +340,10 @@ input {
 		#tudo{
 			left: 0%;
 		}
+		}
+
+
+
+		@media(max-width:440px){
+
 		}
