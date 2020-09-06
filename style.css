@@ -296,7 +296,7 @@ input {
 				position: relative;
 				display: flex;
 				flex-direction: column;
-				padding: 10px;
+				padding: 8px;
 				top: 0;
 				right: 0;
 			}
@@ -311,8 +311,8 @@ input {
 			}
 
 			.btn>button{
-				padding: 24px;
-				font-size:20px;
+				padding: 20px;
+				font-size:18px;
 			}
 			.tudo{width: 400px;}
 			.gameover{width: 400px;}
