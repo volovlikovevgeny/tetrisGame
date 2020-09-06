@@ -18,10 +18,6 @@ body{
     overflow: hidden;
     width: 500px;
 	height: 700px;
-	
-
-
-
 
     border: 1px solid #000;
     flex-wrap: wrap;
@@ -338,12 +334,22 @@ input {
 
 		@media(max-width:900px){
 		#tudo{
-			left: 0%;
+			left: 5%;
 		}
-		}
-
-
-
-		@media(max-width:440px){
 
 		}
+
+
+
+		@media(max-width:460px){
+		.controls{
+			left: 38px;
+				}
+		}
+
+
+		@media(max-width:320px){
+			.controls{
+				left: 65px;
+					}
+			}
