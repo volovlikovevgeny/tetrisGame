@@ -297,7 +297,6 @@ input {
 				position: relative;
 				display: flex;
 				flex-direction: column;
-				padding: 10px;
 				top: 0;
 				right: 0;
 			}
@@ -312,7 +311,7 @@ input {
 			}
 
 			.btn>button{
-				padding: 25px;
+				padding: 30px;
 				font-size:21px;
 			}
 			.tudo{width: 400px;}
