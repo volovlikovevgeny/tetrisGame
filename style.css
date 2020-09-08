@@ -340,6 +340,17 @@ input {
 		}
 
 
+		@media(max-width:600px){
+		
+			#tudo{
+				left: 0%;
+				width: 460px;
+			}
+			.no a, .yes a{
+				width: 40%;
+			}
+		}
+
 
 		@media(max-width:460px){
 		.controls{
