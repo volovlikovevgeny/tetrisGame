@@ -1,7 +1,7 @@
 body{
     overflow: hidden;
 	background: #7F7FD5;  /* fallback for old browsers */ 
-	width: 100%;
+
 	margin: 10px auto ;
 }
 
@@ -65,7 +65,7 @@ input {
 }
 
 .controls{
-    padding: 20px;
+    /* padding: 20px; */
     position: absolute;
     top: 200px;
     right: 200px;
@@ -290,6 +290,10 @@ input {
 
 
 		@media(max-width:1500px){
+
+			body{
+				margin: 0 auto;
+			}
 			.controls-item{
 				display: none;
 			}
@@ -307,7 +311,8 @@ input {
 
 			.main{
 				width: 464px;
-				height: 654px;
+				/* height: 654px; */
+				height: 93vh;
 			}
 
 			.btn>button{
