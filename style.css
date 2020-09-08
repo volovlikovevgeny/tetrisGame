@@ -341,13 +341,20 @@ input {
 
 
 		@media(max-width:600px){
+
 		
+			.gameover p{
+				font-size:120px;
+			}
 			#tudo{
 				left: 0%;
 				width: 460px;
 			}
 			.no a, .yes a{
 				width: 40%;
+			}
+			body{
+				overflow: hidden;
 			}
 		}
 
