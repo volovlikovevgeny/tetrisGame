@@ -311,8 +311,10 @@ input {
 			}
 
 			.btn>button{
-				padding: 30px;
-				font-size:21px;
+				/* padding: 30px;
+				font-size:21px; */
+				padding: 33px;
+				font-size:22px;
 			}
 			.tudo{width: 400px;}
 			.gameover{width: 400px;}
