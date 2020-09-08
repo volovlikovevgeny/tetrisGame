@@ -2,7 +2,7 @@ body{
     overflow: hidden;
 	background: #7F7FD5;  /* fallback for old browsers */ 
 	width: 100%;
-	margin: 0px;
+	margin: 10px auto ;
 }
 
 
@@ -311,10 +311,9 @@ input {
 			}
 
 			.btn>button{
-				/* padding: 30px;
-				font-size:21px; */
-				padding: 33px;
-				font-size:22px;
+				padding: 30px;
+				font-size:21px;
+			
 			}
 			.tudo{width: 400px;}
 			.gameover{width: 400px;}
