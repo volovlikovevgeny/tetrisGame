@@ -20,12 +20,13 @@ body{
     width: 500px;
 	height: 700px;
 
-    border: 1px solid #000;
+    border: 1.1px solid #000;
     flex-wrap: wrap;
     background: #2980B9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2980B9,  #2980B9, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right,   #2980B9, #2abaee, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+	
 }
 
 .tetris{
