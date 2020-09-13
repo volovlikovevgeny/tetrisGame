@@ -68,7 +68,7 @@ input {
 }
 
 .controls{
-    padding: 20px;
+    /* padding: 20px; */
     position: absolute;
     top: 200px;
     right: 200px;
@@ -107,7 +107,7 @@ input {
 
 .btn{
     text-align: center;  
-	margin: 5px;
+
 	display: flex;
 	justify-content: center;
 }
@@ -235,11 +235,6 @@ input {
 		margin-right: 30px;
 		float: left;}
 
-
-
-
-
-
 .no a {text-align: center;
 	font-size: 30px;
 	font-weight: bold;
@@ -316,6 +311,7 @@ input {
 			.btn>button{
 				padding: 30px;
 				font-size:21px;
+				padding-right: 36px;
 			
 			}
 			.tudo{width: 400px;}
