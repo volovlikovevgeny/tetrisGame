@@ -1,15 +1,6 @@
-let body = document.getElementsByTagName('body')[0];
-body.addEventListener('dblclick', function (e) {
-    e.preventDefault();
-})
-
 let overlay = document.querySelector('.overlay');
 let modal = document.querySelector('.modal');
 let speed = 0;
-
-let tudo = document.getElementById('tudo');
-let goScore = document.getElementsByClassName('goScore')[0];
-
 
 
 
@@ -152,7 +143,6 @@ function startGame() {
                 figureBody[i].classList.add('set');
             }
 
-
             for (let i = 1; i < 15; i++) {
                 let count = 0;
                 for (let k = 1; k < 11; k++) {
@@ -182,12 +172,12 @@ function startGame() {
                     }
                 }
             }
+
             for (let n = 1; n < 11; n++) {
                 if (document.querySelector(`[posX = "${n}"][posY = "${15}"]`).classList.contains('set')) {
                     clearInterval(interval);
-                    // alert(`Игра окончена. Ваши очки: ${score} `);
-                    document.getElementById('tudo').style.display = 'block';
-                    goScore.innerHTML = `Your Score is:  ${score}`
+                    alert(`Игра окончена. Ваши очки: ${score} `);
+
                     break;
                 }
             }

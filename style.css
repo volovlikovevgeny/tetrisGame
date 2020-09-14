@@ -6,7 +6,6 @@ body{
 *{  
     box-sizing: border-box;
 	font-family: Arial;
-	touch-action: manipulation;
 }
 
 .main{
@@ -15,14 +14,11 @@ body{
     overflow: hidden;
     width: 500px;
 	height: 700px;
-
     border: 1.1px solid #000;
     flex-wrap: wrap;
     background: #2980B9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2980B9,  #2980B9, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right,   #2980B9, #2abaee, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-	
 }
 
 .tetris{
@@ -38,13 +34,11 @@ body{
 
 .excel{
 	width: 50px;
-
     height: 50px;
     border: 1px solid #ccc;
     display: flex;
     flex-wrap: wrap;
 }
-
 
 .figure,.set{
     background: #136a8a;  /* fallback for old browsers */
@@ -53,15 +47,11 @@ body{
     
 }
 
-
 input {
-   
     margin: 10px auto;
     font-size: 20px;
     padding: 10px;
 }
-
-
 
 .modal{
     position: fixed;
@@ -74,7 +64,6 @@ input {
     background: #2980B9;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     z-index: 3;
     display: flex;
     align-items: center;
@@ -92,27 +81,6 @@ input {
     cursor: pointer;
     font-size: 25px;
     transition: all .3s;
-}
-
-.btn{
-    text-align: center;  
-
-	display: flex;
-	justify-content: center;
-}
-
-.btn>button{
-    padding: 10px;
-    background-color: #000;
-    color: #fff;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transition: all .3s;
-}
-
-.btn>button:hover{
-    opacity: 0.7;
 }
 
 .button:hover{
