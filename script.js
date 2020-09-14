@@ -10,18 +10,8 @@ let speed = 0;
 let tudo = document.getElementById('tudo');
 let goScore = document.getElementsByClassName('goScore')[0];
 
-let yesBtn = document.getElementsByClassName('yesBtn')[0];
-let noBtn = document.getElementsByClassName('noBtn')[0];
 
 
-yesBtn.onclick = function () {
-    tudo.style.display = 'none';
-    window.location.reload()
-}
-
-noBtn.onclick = function () {
-    tudo.style.display = 'none'
-}
 
 
 modal.addEventListener('click', function (e) {
@@ -181,8 +171,7 @@ function startGame() {
                                 let setCoordinates = [set[s].getAttribute('posX'), set[s].getAttribute('posY')];
                                 if (setCoordinates[1] > i) {
                                     set[s].classList.remove('set');
-                                    newSet.push(document.querySelector(`[posX = "${setCoordinates[0]}"][posY = "${
-                                        setCoordinates[1] - 1}"]`));
+                                    newSet.push(document.querySelector(`[posX = "${setCoordinates[0]}"][posY = "${setCoordinates[1] - 1}"]`));
                                 }
                             }
                             for (let a = 0; a < newSet.length; a++) {
