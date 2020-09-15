@@ -3,8 +3,6 @@ let modal = document.querySelector('.modal');
 let speed = 0;
 
 
-
-
 modal.addEventListener('click', function (e) {
     if (e.target.classList.contains('easy')) {
         speed = 1000
