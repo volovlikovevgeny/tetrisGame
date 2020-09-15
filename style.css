@@ -131,4 +131,11 @@ input {
     .options{
         display: none;
     }
+
+    .excel {
+        width: 46px;
+    }
+    .main{
+        width: 465px;
+    }
 }
